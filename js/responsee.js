@@ -6,7 +6,7 @@
 */
 jQuery(document).ready(function($) {
   //Responsee tabs
-  $('.tabs').each(function(intex, element) {
+/*  $('.tabs').each(function(intex, element) {
       current_tabs = $(this);
       $(this).prepend('<div class="tab-nav line"></div>');
       var tab_buttons = $(element).find('.tab-label');
@@ -27,7 +27,7 @@ jQuery(document).ready(function($) {
           $(this).parent().parent().find(tab).fadeIn();
           return false;
       });
-  });
+  });*/
   //Responsee eside nav
   $('.aside-nav > ul > li ul').each(function(index, element) {
     var count = $(element).find('li').length;
