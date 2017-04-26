@@ -165,7 +165,7 @@ p.logo strong {
 	color: #00f;/*#92c500;*/
 	position: relative;
 }
-#carousel .text {
+#featured_properties .text {
 	position: absolute;
 	top: 40%;
 	z-index: 10;
@@ -184,7 +184,7 @@ p.logo strong {
 	text-align: center;
 	width: 30px;
 }
-#carousel .text h2 {
+#featured_properties .text h2 {
 	background: none repeat scroll 0 0 rgba(146, 197, 0, 0.8);
 	color: #fff;
 	display: inline-block;
@@ -195,14 +195,14 @@ p.logo strong {
 	padding: 10px 20px;
 	width: 100%;
 }
-#carousel .text p {
+#featured_properties .text p {
 	background: none repeat scroll 0 0 #00283a;
 	color: #fff;
 	max-width: 600px;
 	padding: 10px 20px;
 	width: 100%;
 }
-#carousel .owl-theme .owl-controls {
+#featured_properties .owl-theme .owl-controls {
 	background: none repeat scroll 0 0 rgba(0, 40, 58, 0.53);
 	bottom: 0;
 	margin: 0;
@@ -221,26 +221,26 @@ p.logo strong {
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
 	background: none repeat scroll 0 0 #92c500;
 }
-#first-block {
+#property_listings {
 	background: none repeat scroll 0 0 RGB(43, 47, 60);/*#00283a;*/
 	padding: 1.5em 2em;
 	text-align: center;
 	color: #fff;
 }
-#first-block input {
+#property_listings input {
 	padding: 0.25em;
 }
-#first-block h1 {
+#property_listings h1 {
 	color: #fff;
 	font-size: 2em;
 	font-weight: 300;
 	margin-top: 0;
 }
-#first-block p { 
+#property_listings p { 
 	color: #6c7c84;
 	font-size: 0.85em;
 }
-#features {
+#special_offers {
 	background: none repeat scroll 0 0 #fff;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	padding: 2em 2em 0.5em;
@@ -248,10 +248,10 @@ p.logo strong {
 	text-align: center;
 	z-index: 2;
 }
-#features .line {
+#special_offers .line {
 	width: 70%;
 }
-#features i {
+#special_offers i {
 	background: none repeat scroll 0 0 #fff;/*#92c500;*/
 	border: 1px solid rgb(38, 56, 133);
 	border-radius: 50px;
@@ -264,22 +264,22 @@ p.logo strong {
 	text-align: center;
 	width: 50px;
 }
-#features h2 {
+#special_offers h2 {
 	font-size: 1em;
 	font-weight: 800;
 	margin: 1.25em 0;
 	text-transform: uppercase;
 }
-#features p {
+#special_offers p {
 	color: #777;
 	font-size: 0.75em;
 	line-height: 1.5em;
 }
-/*#about-us {
+/*#special_offers {
 	background: none repeat scroll 0 0 #00283a;
 	clear: both;
 }
-#about-us:after {
+#special_offers:after {
 	clear: both;
 	content: ".";
 	display: block;
@@ -287,7 +287,7 @@ p.logo strong {
 	line-height: 0;
 	visibility: hidden;
 }
-#about-us article {
+#special_offers article {
 	padding: 4em;
 }*/
 article h2 {
@@ -372,7 +372,7 @@ h2.section-title {
 	text-align: center;
 	text-transform: uppercase;
 }
-#our-work {
+#reviews_testimonials {
 	background: none repeat scroll 0 0 #fff;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	padding: 1em 2em;
@@ -380,19 +380,19 @@ h2.section-title {
 	z-index: 2;
 	text-align: center;
 }
-#our-work h2 {
+#reviews_testimonials h2 {
 	font-size: 1.5em;
 	font-weight: 800;
 	margin: 0.5em 0;
 	text-transform: uppercase;
 }
-#our-work p {
+#reviews_testimonials p {
 	color: #777;
 	font-size: 0.75em;
 	line-height: 1.5em;
 }
 
-#our-work img {
+#reviews_testimonials img {
 	width: 100%;
 }
 
@@ -455,33 +455,33 @@ a.tab-label:hover, a.tab-label.active-btn {
 	background: #92c500;
 	color: #fff;
 }
-#services {
+#buying_selling {
 	/*background: #6f9600 none repeat scroll 0 0;*/
-    background: /*#ffffff*/ url("../img1/review.jpg") no-repeat center center;
+    background: /*#ffffff*/ url("../img/review.jpg") no-repeat center center;
 	background-size: cover;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	padding: 3em 2em 2em;
 }
-#services .margin {
+#buying_selling .margin {
 	margin: 0;
 	text-align: center;
 }
-#services div .margin-bottom {
+#buying_selling div .margin-bottom {
 	height: 400px;
 }
-#services h2 {
+#buying_selling h2 {
 	color: #fff;
 	margin: 0 0 1.25em;
 }
-#services h2.section-title:after {
+#buying_selling h2.section-title:after {
 	background: #fff none repeat scroll 0 0;
 }
-#services .quote_icon {
+#buying_selling .quote_icon {
 	display:inline-block;
 	margin-bottom: 2em;
 	max-height: 10%;
 }
-#services i {
+#buying_selling i {
 	background: none repeat scroll 0 0 #fff;
 	border-radius: 30px;
 	color: #000;/*#6f9600;*/
@@ -494,7 +494,7 @@ a.tab-label:hover, a.tab-label.active-btn {
 */	text-align: center;
 	width: 30px;
 }
-#services .service-text {
+#buying_selling .service-text {
 /*	display: table;
 *//*	position: relative;
 */	text-align: left;
@@ -504,23 +504,23 @@ a.tab-label:hover, a.tab-label.active-btn {
 	max-height: 65%;
 	overflow: hidden;
 }
-#services .service-name {
+#buying_selling .service-name {
 	position: absolute;
 	bottom: 5%;
 	width: 100%;
 }
-#services h3 {
+#buying_selling h3 {
 	color: #fff;
 	font-size: 1em;
 	font-weight: 700;
 	text-transform: uppercase;
 }
-#services p {
+#buying_selling p {
 	color: #fff;
 	font-size: 0.9em;
 }
-#latest-news {
-/*    background: url("../img1/footer_logo.png") no-repeat center;*/
+#faq {
+/*    background: url("../img/footer_logo.png") no-repeat center;*/
 /*	background: #f3f3f3 none repeat scroll 0 0;
 */	box-shadow: 0px -10px 9px -11px rgba(0, 0, 0, 0.5);
 /*	padding: 1em 2em;
@@ -528,15 +528,15 @@ a.tab-label:hover, a.tab-label.active-btn {
 	z-index: 3;
 	text-align: center;
 }
-#latest-news .line {
+#faq .line {
 	max-width: 100%;
 	padding: 0;
 	position: relative;
 	width: 100%;
 	height: 100%;
 }
-#latest-news #footer_logo_img {
-    background: url("../img1/footer_logo.png") no-repeat center center;
+#faq #footer_logo_img {
+    background: url("../img/footer_logo.png") no-repeat center center;
 	z-index: 9999;
 	width: 50px;
 	height: 50px;
@@ -544,36 +544,36 @@ a.tab-label:hover, a.tab-label.active-btn {
 	display: inline-block;
 	bottom: -50%;
 }
-#latest-news img {
+#faq img {
 	position: absolute;
 	z-index: 9999;
 	display: inline-flex;
 	left: calc(50% - 17px);
 	top: calc(50% - 17px);
 }
-#latest-news div #buying_pane {
+#faq div #buying_pane {
 	background: rgb(43, 47, 60) none repeat scroll 0 0;
 }
-#latest-news div #renting_pane {
+#faq div #renting_pane {
 	background: rgb(38, 55, 133) none repeat scroll 0 0;
 }
-#latest-news div #buying {
+#faq div #buying {
 	height: 100%;
 	padding: 1em;
 }
-#latest-news h4 {
+#faq h4 {
 	font-size: 0.9em;
 	font-weight: 700;
 	color: #fff;
 }
-#latest-news div #renting {
+#faq div #renting {
 	height: 100%;
 	padding: 1em;
 }
-#latest-news input {
+#faq input {
 	width: 8em;
 }
-#latest-news a.orange-btn {
+#faq a.orange-btn {
 /*	border: 1px solid #fff;
 	border-radius: 3px;
 */	color: #fff;
@@ -588,7 +588,7 @@ a.tab-label:hover, a.tab-label.active-btn {
 	-moz-transition: all 0.20s linear 0s;
 	-webkit-transition: all 0.20s linear 0s;
 }
-#latest-news a.orange-btn:hover {
+#faq a.orange-btn:hover {
 	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
 }
 .news-date {
@@ -621,17 +621,17 @@ a.tab-label:hover, a.tab-label.active-btn {
 	color: #777;
 	font-size: 0.85em;
 }
-#contact {
+#rental_enquiry {
 	background: none repeat scroll 0 0 #fff;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	padding: 4em 2em 0;
 	position: relative;
 	z-index: 2;
 }
-#contact .line {
+#rental_enquiry .line {
 	width: 70%;
 }
-#contact input, #contact textarea {
+#rental_enquiry input, #rental_enquiry textarea {
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
 	border-radius: 3px;
 }
@@ -639,15 +639,15 @@ form.customform button.color-btn {
 	height: auto;
 	margin-top: 0;
 }
-#contact img {
+#rental_enquiry img {
 	width: 100%;
 	height: 100%;
 }
 
-#contact h2 {
+#rental_enquiry h2 {
 	margin: 0 0 1.25em;
 }
-#contact h3 {
+#rental_enquiry h3 {
 	color: #000;/*#92c500;*/
 	font-size: 1em;
 	font-weight: 700;
@@ -655,29 +655,29 @@ form.customform button.color-btn {
 	text-transform: uppercase;
 	border-bottom: 2px solid #000;
 }
-#contact p {
+#rental_enquiry p {
 	font-size: 0.85em;
 	font-style: normal;
 /*	line-height: 2em;
 */	color:#777;
 }
-#contact p strong {
+#rental_enquiry p strong {
 	font-weight: 700;
 }
-#contact .contact_image {
+#rental_enquiry .contact_image {
 	position: relative;
 	display: flex;
 	margin-bottom: 2em;
 }
-#contact .contact_price {
+#rental_enquiry .contact_price {
 	position: absolute;
 	right: 3%;
 	bottom: 8%;
 }
-#contact .contact_price a.orange-btn:hover {
+#rental_enquiry .contact_price a.orange-btn:hover {
 	background: none repeat scroll 0 0 rgba(239, 122, 50, 0.7);
 }
-#contact .prop_btn {
+#rental_enquiry .prop_btn {
 	color: RGB(239, 122, 50);/*#92c500;*/
 	font-size: 1em;
 	line-height: 7em;
@@ -687,7 +687,7 @@ form.customform button.color-btn {
 	text-transform: uppercase;
 /*	border-bottom: 2px solid #000;*/
 }
-#contact i {
+#rental_enquiry i {
 	background: #e0e0e0 none repeat scroll 0 0;
 	border-radius: 30px;
 	color: #fff;
@@ -718,7 +718,7 @@ footer p, footer a:visited, footer a, footer a:hover {
   .top-nav li a {
 /*  	background: #05374e none repeat scroll 0 0;*/
   }
-  #carousel .text {
+  #featured_properties .text {
   	font-size: 0.8em;
   	top: 20%;
   }
@@ -731,7 +731,7 @@ footer p, footer a:visited, footer a, footer a:hover {
   .social.right {
   	float: right;
   }
-  #about-us article {
+  #special_offers article {
   	padding: 4em 2.5em;
   }
 }
